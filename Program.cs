@@ -27,6 +27,17 @@ void PrintMatrix(string[][] matrix)
     }
 }
 
+void ShowArray(string[] arr)
+{
+    Console.Write("[");
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (i < arr.Length - 1) Console.Write($"\"{arr[i]}\", ");
+        else Console.Write($"\"{arr[i]}\"");
+    }
+    Console.Write("]");
+}
+
 void arraySymbolLimit3(string[] arr)
 {
     Console.Write(" -> [");
@@ -45,13 +56,4 @@ void arraySymbolLimit3(string[] arr)
     Console.Write("]");
 }
 
-void ShowArray(string[] arr)
-{
-    Console.Write("[");
-    for (int i = 0; i < arr.Length; i++)
-    {
-        if (i < arr.Length - 1) Console.Write($"\"{arr[i]}\", ");
-        else Console.Write($"\"{arr[i]}\"");
-    }
-    Console.Write("]");
-}
+
