@@ -9,7 +9,7 @@
 Console.Clear();
 
 string[] array1 = { "hello", "2", "world", ":-)" };
-string[] array2 = { "1234", "1567", "-2", "computer science" };
+string[] array2 = { "1234", "1567", "-2", "computer science", "tag" };
 string[] array3 = { "Russia", "Denmark", "Kazan" };
 
 string[][] matrix = new string[][] { array1, array2, array3 };
